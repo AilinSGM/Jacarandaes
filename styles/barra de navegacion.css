@@ -1,0 +1,5 @@
+.hijonav 
+    a:hover{ background-color: lime;}
+    a:link{ text-decoration:none; color:rgb(20, 14, 14); }
+    a:visited{ color:#ad47c2; }
+    a:active{ background-color:yellow; color:black; }

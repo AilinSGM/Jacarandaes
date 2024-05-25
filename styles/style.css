@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: beige;
+    font-family: montserrat;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    color: rgb(6, 75, 107); 
+    background-color: rgb(132, 236, 213);
+}
+h1 {
+    font-size: 30px;
+}
+
+.barranav{
+    display: flex;
+    flex-direction: column;
+}
+
+.hijonav{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: mediumaquamarine;
+}
+
+
+.ancho {
+    width: 90px;
+}
+main {
+    border: 1px solid rgb(70, 28, 253);
+    padding: 4px;
+    background-color: rgb(115, 179, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijomain{
+    border: mediumorchid solid 3px;
+    margin: 10px;
+    justify-items: center;
+}
+
+h2 {
+    color: rgb(52, 247, 250);
+    background-color: rgb(46, 45, 97);
+    text-decoration: underline;
+    margin-top: 15px;
+}
+h3 {
+    color: rgb(21, 18, 212);
+    background-color: rgb(115, 220, 222);
+    padding-left: 1rem;
+}
+.noticias {
+    margin-bottom: 15px;
+    margin-top: 8px
+    
+}
+.bullets {
+    margin-left: 20px;
+    padding: 5px;
+}
+.ul {
+    list-style-type: circle;
+      }
+#unId { 
+    background-color: blueviolet;
+    padding-left: 1rem;
+}
+
+.seccionnoticias {
+    border: 5px solid rgb(3, 214, 116);
+    background-color: rgb(165, 166, 221);
+}
+.mt {
+    margin-top: 8px; 
+}
+
+
+
+#unId {
+    font-family: ubuntu;
+}
+
+.pie {
+    background-color: bisque;
+    padding: 5px;
+    border: 1px solid brown;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.footer {
+    font-size: medium;
+    text-align: center;
+    margin: 10px
+}
+
+
+.sillaenescalera {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#parrafoqs{
+   
+    margin: 20px;
+    padding: 5px;
+}
+  
+#Escaleras{
+    width: 340px;
+    margin: 2px;
+    border: 3px solid rgb(49, 48, 48);
+}
+
+
+.tabla {
+    font-size: small;
+    padding: 5px;
+    margin-top: 20px;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid purple;
+  }
+
+
+@media screen and (max-width:767px) {
+    body{
+        background-color: rgb(233, 233, 110) ;
+    }
+   
+
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: rgb(214, 123, 173) ;
+        font-size: x-large;
+    }
+
+     #Escaleras{
+        width: 600px;
+        margin: 40px;
+        padding: 15px;
+    }
+
+    main {
+        flex-direction: row-reverse;
+    }
+
+    .hijomain {
+        flex: 50%;
+    }
+
+    .hijonav{
+        flex-direction: column;
+    }
+    img{
+        width: 200rem;
+    }
+    .tabla {
+        font-size: large;
+    }
+    .bullets {
+            margin-left: 80px;
+    }
+}
+
+    
+@media screen and (min-width: 1100px){
+    body{
+        background-color: rgb(175, 235, 167) ;
+    }
+    .barranav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #Escaleras{
+        width: 900px;
+        margin: 40px;
+    padding: 20px;
+    }
+    .tabla {
+        font-size: large;
+    }
+    .bullets {
+        margin-left: 80px;
+}
+
+}
+
+
+#padrevideo{
+    width:350px;
+    margin:auto;
+}       
+
+.contenedorvideo{
+    flex:center;
+    width:100%;
+    padding-top:56.25%; 
+    position: relative;
+}
+
+.videoespacios{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+
+
