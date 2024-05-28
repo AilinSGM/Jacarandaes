@@ -1,28 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diagonales sin barreras</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Diagonales sin barreras</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
-</head>
+    <link rel="contactsheet" href="contact.css">
+    </head>
 <body>
     <header>
-        <section class="titulo">
-           <img src="image/logo.jpg" class="ancho"> 
-           <h1>DIAGONALES SIN BARRERAS 
-           </h1>
-           </section>
-        <nav class="barranav">
-           <a href="index.html" class="hijonav"> Inicio</a>
-           <a href="quienes somos.html" class="hijonav"> Quiénes somos</a>
-           <a href="marco legal.html" class="hijonav"> Marco legal</a>
-           <a href="experiencias.html" class="hijonav"> Experiencias</a>
-           <a href="contact.html" class="hijonav"> Contacto</a>
-        </nav>
-        </header>
-    <h1>Comuníquese con nosotros</h1>
-    <p>Estamos a su disposición de lunes a viernes de 8 a 17 hs.</p>
+    <section class="titulo">
+       <img src="image/logo.png" class="ancho" alt="logo"> 
+       <h1>DIAGONALES SIN BARRERAS 
+       </h1>
+       </section>
+    <nav class="barranav">
+       <a href="index.html" class="hijonav"> Inicio</a>
+       <a href="./views/quienes somos.html" class="hijonav"> Quiénes somos</a>
+       <a href="marco legal.html" class="hijonav"> Marco legal</a>
+       <a href="experiencias.html" class="hijonav"> Experiencias</a>
+       <a href="contact.html" class="hijonav"> Contacto</a>
+    </nav>
+    </header>
+<main class="containerpadre">
+          <div class="row" id="hijocontacto1">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header">Comuníquese con nosotros</legend>
+                        <p>Estamos a su disposición de lunes a viernes de 8 a 17 hs</p>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Correo electrónico" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Ingrese su mensaje aquí. Nos comunicaremos con usted dentro de 2 días hábiles." rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="botonsubmit">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>    
+</main>
 </body>
 <footer><footer class="pie">
     <span class="footer">&copy;DsB</span> <p class="footer">Políticas de privacidad</p> 
