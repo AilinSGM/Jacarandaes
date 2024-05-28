@@ -1,5 +1,28 @@
-footer.footer {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+body {background-color: beige;
+    font-family: montserrat;
+}
+
+.hijonav 
+    a:hover{ background-color: lime;}
+    a:link{ text-decoration:none; color:rgb(20, 14, 14); }
+    a:visited{ color:#ad47c2; }
+    a:active{ background-color:yellow; color:black; }
+
+.pie {
+    background-color: bisque;
+    padding: 5px;
+    border: 1px solid brown;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.footer {
     font-size: medium;
     text-align: center;
     margin: 10px
 }
+
+
