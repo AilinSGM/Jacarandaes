@@ -43,18 +43,21 @@ h1 {
     padding: 2rem 4rem 2rem 4rem;
     border-radius: 20px;
     background-color: rgb(9, 113, 161);
+    transition: background-color 1s;
 }
 
 
 .hijonav 
-    a:hover{ background-color: lime;}
-    a:link{ text-decoration:none; color:rgb(20, 14, 14); }
+    
+    a:link{ text-decoration:none;  }
     a:visited{ color:#aafce1; }
-    a:active{ background-color:yellow; color:black;
+    a:hover{ color: rgb(255, 255, 255); transition: background-color 0.5s;}
+    a:active{ background-color:rgb(10, 141, 141);
+    
 }
 
 .pie {
-        background-color: bisque;
+        background-color: rgb(9, 113, 161);
         padding: 5px;
         border: 1px solid brown;
         display: flex;
