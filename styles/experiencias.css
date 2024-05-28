@@ -5,11 +5,35 @@ body {background-color: beige;
     font-family: montserrat;
 }
 
+
 .hijonav 
     a:hover{ background-color: lime;}
     a:link{ text-decoration:none; color:rgb(20, 14, 14); }
     a:visited{ color:#ad47c2; }
     a:active{ background-color:yellow; color:black; }
+
+    .maria {width: 200px;
+        height: auto;}
+    
+    .juan {width: 200px;
+            height: auto;}
+    
+    .Ana {width: 200px;
+        height: auto;}
+    
+    .Pedro {width: 200px;
+            height: auto;}
+
+
+            
+.grid-containerexperiencias{
+grid-template-columns: 3fr 3fr 3fr 3fr;
+text-align: center; 
+padding: 25px;
+}
+
+
+
 
 .pie {
     background-color: bisque;
