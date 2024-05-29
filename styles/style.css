@@ -10,6 +10,7 @@ body {background-color: white;
     font-family: montserrat;
 }
 
+
 .titulo{
     display: flex;
     flex-direction: row;
@@ -26,7 +27,7 @@ h1 {
 }
 
 .ancho {
-    width: 90px;
+    width: 100px;
 }
 
 .barranav{
@@ -45,7 +46,6 @@ h1 {
     background-color: rgb(9, 113, 161);
     transition: background-color 1s;
 }
-
 
 .hijonav 
     
@@ -70,11 +70,6 @@ h1 {
         margin: 10px
 }
 
-@media screen and (max-width:767px) {
-    body{
-        background-color: rgb(255, 255, 254) ;
-    }
-}
 
 @media screen and (min-width: 768px){
     body{
