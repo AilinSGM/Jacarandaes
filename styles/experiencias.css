@@ -2,15 +2,15 @@
 
 
 
-    .maria {width: 90px;
+    .maria {width: 250px;
         height: auto;}
     
-    .juan {width: 90px;
+    .juan {width: 250px;
             height: auto;}
-    .Ana {width: 90px;
+    .Ana {width: 250px;
         height: auto;}
     
-    .Pedro {width: 90px;
+    .Pedro {width: 250px;
             height: auto;}
 
 
@@ -21,7 +21,7 @@ grid-template-columns: 3fr 3fr 3fr 3fr;
 text-align: start; 
 padding: 50px;
 border: #4791c2;
-text-align: start;
+height: 2000px;
 }
 
 .Gridhijo
@@ -46,4 +46,12 @@ height: 100vh;}
     font-size: medium;
     text-align: center;
     margin: 10px
+}
+
+.experiencias {
+    border:3px solid red;
+    width: 100vw;
+    height: 800px;
+padding: 20px;
+margin-bottom: 30px;
 }
