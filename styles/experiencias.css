@@ -12,29 +12,34 @@ body {background-color: beige;
     a:visited{ color:#ad47c2; }
     a:active{ background-color:yellow; color:black; }
 
-    .maria {width: 200px;
+    .maria {width: 90px;
         height: auto;}
     
-    .juan {width: 200px;
+    .juan {width: 90px;
             height: auto;}
     
-    .Ana {width: 200px;
+    .Ana {width: 90px;
         height: auto;}
     
-    .Pedro {width: 200px;
+    .Pedro {width: 90px;
             height: auto;}
 
 
             
 .grid-containerexperiencias{
-grid-template-columns: 3fr 3fr 3fr 3fr;
-text-align: center; 
+display: grid;
+justify-content: start;
+grid-template-rows: 3fr 3fr 3fr 3fr;
+text-align: start; 
 padding: 50px;
 border: #4791c2;
 text-align: start;
-image
+}
 
-
+.Gridhijo
+{justify-items: center ;
+align-items: end;
+height: 90px;}
 
 
 .pie {
