@@ -5,34 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Diagonales sin barreras</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="../styles/contact/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="contactsheet" href="contact.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contact/contact.css">
     </head>
 <body>
     <header>
     <section class="titulo">
-       <img src="image/logo.png" class="ancho" alt="logo"> 
+       <img src="../image/logo.png" class="ancho" alt="logo"> 
        <h1>DIAGONALES SIN BARRERAS 
        </h1>
        </section>
     <nav class="barranav">
-       <a href="index.html" class="hijonav"> Inicio</a>
-       <a href="./views/quienes somos.html" class="hijonav"> Quiénes somos</a>
-       <a href="marco legal.html" class="hijonav"> Marco legal</a>
-       <a href="experiencias.html" class="hijonav"> Experiencias</a>
-       <a href="contact.html" class="hijonav"> Contacto</a>
+       <a href="../index.html" class="hijonav"> Inicio</a>
+       <a href="../views/quienes somos.html" class="hijonav"> Quiénes somos</a>
+       <a href="../marco legal.html" class="hijonav"> Marco legal</a>
+       <a href="../experiencias.html" class="hijonav"> Experiencias</a>
+       <a href="../contact.html" class="hijonav"> Contacto</a>
     </nav>
     </header>
-<main class="containerpadre">
-          <div class="row" id="hijocontacto1">
+<main class="container">
+    <section class="container margin_top">
+          <div class="row">
         <div class="col-md-12">
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
                     <fieldset>
-                        <legend class="text-center header">Comuníquese con nosotros</legend>
-                        <p>Estamos a su disposición de lunes a viernes de 8 a 17 hs</p>
+                        <legend class="text-center display-6" class="mt-0">Comuníquese con nosotros</legend>
+                        <p class="display-7">Estamos a su disposición de lunes a viernes de 8 a 17 hs</p>
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                             <div class="col-md-8">
@@ -64,20 +66,21 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-md-12 text-center">
-                                <button type="submit" class="botonsubmit">Enviar</button>
+                            <div class="col-md-8 text-center">
+                               <button type="submit" class="botonsubmit">Enviar</button>
                             </div>
                         </div>
                     </fieldset>
                 </form>
             </div>
         </div>
-    </div>
-</div>    
+    </section>  
+    <section class="margin_bottom"></section>  
 </main>
 </body>
-<footer><footer class="pie">
+<footer class="pie">
     <span class="footer">&copy;DsB</span> <p class="footer">Políticas de privacidad</p> 
     <p class="footer">Calle 10 n° 782, La Plata, Buenos Aires, Argentina.</p>
- </footer></footer>
+ </footer>
+ <script src="../js/bootstrap.bundle.min.js"></script>
 </html>

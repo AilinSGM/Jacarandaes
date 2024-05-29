@@ -1,0 +1,31 @@
+.header {
+    color: #36A0FF;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 55px;
+    color: #36A0FF;
+}
+.botonsubmit {
+    size: 50px;
+}
+.lead {
+    margin-top: 30%;
+    padding: 20px;
+    color: red;
+}
+.botonsubmit {
+    size: 30px;
+}
+.mt-0 {
+    margin-top: 20 !important;
+  }
+
+ section.container.margin_top {
+    margin-top: 5rem;
+  }
+.margin_bottom {
+    margin-bottom: 10 rem;
+  }
