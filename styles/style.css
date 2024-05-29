@@ -6,166 +6,83 @@
     box-sizing: border-box;
 }
 
-body {background-color: beige;
+body {background-color: white;
     font-family: montserrat;
 }
 
 .titulo{
     display: flex;
     flex-direction: row;
-    color: rgb(6, 75, 107); 
-    background-color: rgb(132, 236, 213);
+    color: rgb(9, 113, 161); 
+    background-color: rgb(234, 241, 241);
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 10px;
 }
+
 h1 {
-    font-size: 30px;
+    font-size: 60px;
+    padding: 15px;
+}
+
+.ancho {
+    width: 90px;
 }
 
 .barranav{
     display: flex;
     flex-direction: column;
+    background-color:rgb(9, 113, 161);
 }
 
 .hijonav{
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     margin: 0.5rem;
-    padding: 1rem;
-    border-radius: 5px;
-    background-color: mediumaquamarine;
+    padding: 2rem 4rem 2rem 4rem;
+    border-radius: 20px;
+    background-color: rgb(9, 113, 161);
+    transition: background-color 1s;
 }
 
 
-.ancho {
-    width: 90px;
-}
-main {
-    border: 1px solid rgb(70, 28, 253);
-    padding: 4px;
-    background-color: rgb(115, 179, 212);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.hijomain{
-    border: mediumorchid solid 3px;
-    margin: 10px;
-    justify-items: center;
-}
-
-h2 {
-    color: rgb(52, 247, 250);
-    background-color: rgb(46, 45, 97);
-    text-decoration: underline;
-    margin-top: 15px;
-}
-h3 {
-    color: rgb(21, 18, 212);
-    background-color: rgb(115, 220, 222);
-    padding-left: 1rem;
-}
-.noticias {
-    margin-bottom: 15px;
-    margin-top: 8px
+.hijonav 
     
-}
-.bullets {
-    margin-left: 20px;
-    padding: 5px;
-}
-.ul {
-    list-style-type: circle;
-      }
-#unId { 
-    background-color: blueviolet;
-    padding-left: 1rem;
-}
-
-.seccionnoticias {
-    border: 5px solid rgb(3, 214, 116);
-    background-color: rgb(165, 166, 221);
-}
-.mt {
-    margin-top: 8px; 
-}
-
-
-
-#unId {
-    font-family: ubuntu;
+    a:link{ text-decoration:none;  }
+    a:visited{ color:#aafce1; }
+    a:hover{ color: rgb(255, 255, 255); transition: background-color 0.5s;}
+    a:active{ background-color:rgb(10, 141, 141);
+    
 }
 
 .pie {
-    background-color: bisque;
-    padding: 5px;
-    border: 1px solid brown;
-    display: flex;
-    justify-content: space-evenly
+        background-color: rgb(9, 113, 161);
+        padding: 5px;
+        border: 1px solid brown;
+        display: flex;
+        justify-content: space-evenly
 }
-
-.footer {
-    font-size: medium;
-    text-align: center;
-    margin: 10px
-}
-
-
-.sillaenescalera {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     
+.footer {
+        font-size: medium;
+        text-align: center;
+        margin: 10px
 }
-
-#parrafoqs{
-   
-    margin: 20px;
-    padding: 5px;
-}
-  
-#Escaleras{
-    width: 340px;
-    margin: 2px;
-    border: 3px solid rgb(49, 48, 48);
-}
-
-
-.tabla {
-    font-size: small;
-    padding: 5px;
-    margin-top: 20px;
-}
-table {
-    table-layout: fixed;
-    width: 100%;
-    border: 1px solid purple;
-  }
-
 
 @media screen and (max-width:767px) {
     body{
-        background-color: rgb(233, 233, 110) ;
+        background-color: rgb(255, 255, 254) ;
     }
-   
-
 }
 
 @media screen and (min-width: 768px){
     body{
-        background-color: rgb(214, 123, 173) ;
+        background-color: rgb(255, 255, 255) ;
         font-size: x-large;
     }
 
-     #Escaleras{
-        width: 600px;
-        margin: 40px;
-        padding: 15px;
-    }
-
-    main {
+    .mainindex {
         flex-direction: row-reverse;
     }
 
@@ -176,59 +93,39 @@ table {
     .hijonav{
         flex-direction: column;
     }
-    img{
-        width: 200rem;
-    }
-    .tabla {
-        font-size: large;
-    }
+
     .bullets {
-            margin-left: 80px;
+        margin-left: 80px;
     }
 }
 
     
 @media screen and (min-width: 1100px){
     body{
-        background-color: rgb(175, 235, 167) ;
+        background-color: rgb(255, 255, 255) ;
     }
     .barranav{
         flex-direction: row;
         justify-content: space-around;
     }
-    #Escaleras{
-        width: 900px;
-        margin: 40px;
-    padding: 20px;
-    }
-    .tabla {
-        font-size: large;
-    }
+
     .bullets {
         margin-left: 80px;
-}
-
-}
-
-
-#padrevideo{
-    width:350px;
-    margin:auto;
-}       
-
-.contenedorvideo{
-    flex:center;
-    width:100%;
-    padding-top:56.25%; 
-    position: relative;
-}
-
-.videoespacios{
-    position:absolute;
-    height:100%;
-    width:100%;
-    top:0px;
-    left:0px;
+    }
 }
 
 
+
+
+/*Lo puse acá porque en mi apartado de CSS no me lo tomaba nose porqué*/
+.maria {width: 200px;
+    height: auto;}
+
+.juan {width: 200px;
+        height: auto;}
+
+.Ana {width: 200px;
+    height: auto;}
+
+.Pedro {width: 200px;
+        height: auto;}

@@ -1,0 +1,26 @@
+.form-group {
+    display: flex;
+    flex-direction: row;
+}
+.social_media ul li {
+    list-style: none;
+}
+
+.social_media ul li a i {
+    font-size: 35px;
+}
+
+.containerpadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hijocontacto1 {
+        
+}
+
+#hijocontacto2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end; 
+}

@@ -1,0 +1,30 @@
+.sillaenescalera {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+#parrafoqs{
+    margin: 20px;
+    padding: 5px;
+}
+  
+#Escaleras{
+    width: 340px;
+    margin: 2px;
+    border: 3px solid rgb(49, 48, 48);
+}
+
+
+.tabla {
+    font-size: small;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid purple;
+}
