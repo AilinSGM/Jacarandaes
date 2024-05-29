@@ -29,8 +29,10 @@ body {background-color: beige;
 .grid-containerexperiencias{
 grid-template-columns: 3fr 3fr 3fr 3fr;
 text-align: center; 
-padding: 25px;
-}
+padding: 50px;
+border: #4791c2;
+text-align: start;
+image
 
 
 
