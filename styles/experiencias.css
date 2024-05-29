@@ -30,8 +30,12 @@ align-items: end;
 height: 90px;}
 
 
+main {display: flex;
+flex-direction: column;
+height: 100vh;}
+
 .pie {
-    background-color: bisque;
+    background-color: rgb(9, 113, 161);
     padding: 5px;
     border: 1px solid brown;
     display: flex;
@@ -43,8 +47,3 @@ height: 90px;}
     text-align: center;
     margin: 10px
 }
-
-
-main {display: flex;
-flex-direction: column;
-height: 100vh;}
