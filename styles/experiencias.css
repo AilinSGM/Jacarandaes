@@ -7,14 +7,13 @@
     
     .juan {width: 90px;
             height: auto;}
-    .Ana {width: ;
+    .Ana {width: 90px;
         height: auto;}
     
     .Pedro {width: 90px;
             height: auto;}
 
 
-            
 .grid-containerexperiencias{
 display: grid;
 justify-content: start;
