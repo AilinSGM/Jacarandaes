@@ -70,6 +70,51 @@ h1 {
         margin: 10px
 }
 
+@media screen and (max-width:767px) {
+    body{
+        background-color: rgb(255, 255, 254) ;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: rgb(255, 255, 255) ;
+        font-size: x-large;
+    }
+
+    .mainindex {
+        flex-direction: row-reverse;
+    }
+
+    .hijomain {
+        flex: 50%;
+    }
+
+    .hijonav{
+        flex-direction: column;
+    }
+
+    .bullets {
+        margin-left: 80px;
+    }
+}
+
+    
+@media screen and (min-width: 1100px){
+    body{
+        background-color: rgb(255, 255, 255) ;
+    }
+    .barranav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .bullets {
+        margin-left: 80px;
+    }
+}
+
+
 
 
 /*Lo puse acá porque en mi apartado de CSS no me lo tomaba nose porqué*/
@@ -84,5 +129,3 @@ h1 {
 
 .Pedro {width: 200px;
         height: auto;}
-
-        
