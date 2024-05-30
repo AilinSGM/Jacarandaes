@@ -54,8 +54,8 @@ h1 {
 .hijonav 
     
     a:link{ text-decoration:none;  }
-    a:visited{ color:#aafce1; }
-    a:hover{ color: rgb(255, 255, 255); transition: background-color 0.5s;}
+    a:visited{ color:#ffffff; }
+    a:hover{ color: rgb(147, 213, 252); transition: background-color 0.5s;}
     a:active{ background-color:rgb(10, 141, 141);
     
 }

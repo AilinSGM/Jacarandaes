@@ -40,10 +40,18 @@ h2 {
     background-color: rgb(255, 255, 255);
 }
 .seccionnoticias {
-    margin-top: 8px;
+    margin-top: 15px;
+    padding: 5px;
     border: 4px solid rgb(9, 113, 161);
     border-radius: 10px;
 }
+
+
+.linksnoticias a:link{ text-decoration:none;  }
+.linksnoticias a:visited{ color:#d88200; }
+.linksnoticias a:hover{ color: rgb(147, 213, 252); transition: background-color 0.5s;}
+.linksnoticias a:active{ background-color:rgb(10, 141, 141);
+    }
 
 .seccionnovedades {
     margin-top: 15px;
@@ -54,12 +62,12 @@ h2 {
 
 #unId {
     color: rgb(255, 255, 255);
-    background-color: rgb(14, 82, 114);
+    background-color: #89abb4;
 }
 
-#titulonovedades {;
+#titulonovedades {
     color: rgb(255, 255, 255);
-    background-color: rgb(14, 82, 114);
+    background-color: #89abb4;
     padding-left: 1rem;
 }
 
