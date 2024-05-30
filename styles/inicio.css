@@ -96,8 +96,7 @@ a.linknot {
 }
 
 @media screen and (min-width: 768px){
-    body{
-        background-color: rgb(255, 255, 255) ;
+    body{     
         font-size: x-large;
     }
 
@@ -110,9 +109,7 @@ a.linknot {
 
     
 @media screen and (min-width: 1100px){
-    body{
-        background-color: rgb(255, 255, 255) ;
-    }
+   
     .barranav{
         flex-direction: row;
         justify-content: space-around;
