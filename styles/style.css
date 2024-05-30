@@ -63,15 +63,15 @@ h1 {
 .pie {
         background-color: rgb(9, 113, 161);
         padding: 5px;
-        border: 1px solid brown;
         display: flex;
         justify-content: space-evenly
 }
     
 .footer {
-        font-size: medium;
-        text-align: center;
-        margin: 10px
+    color: white;
+    font-size: medium;
+    text-align: center;
+    margin: 10px
 }
 
 
@@ -107,6 +107,13 @@ h1 {
     .bullets {
         margin-left: 80px;
     }
+
+    .footer {
+        color: white;
+        font-size: large;
+        text-align: center;
+        margin: 10px
+    }
 }
 
     
@@ -134,6 +141,13 @@ h1 {
 
     .bullets {
         margin-left: 80px;
+    }
+
+    .footer {
+        color: white;
+        font-size: x-large;
+        text-align: center;
+        margin: 10px
     }
 }
 
