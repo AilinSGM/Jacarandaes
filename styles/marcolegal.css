@@ -1,25 +1,28 @@
 .Asesoria{
-    text-align: center;
-    color: black;
-    background-color: rgb(162, 217, 243);
-    margin-top: 10px;
+text-align: center;
+color: black;
+background-color: rgb(162, 217, 243);
+margin-top: 10px;
 }
-.ancho{
+.juez{
 width: 400px;
-margin: 10px 17px 20px 15px;
+margin-top: 10px;
 }
 
 .legal{
-    background-color: white;
-    height: 100vh;
-  margin: 5px 10px 12px 15px;
-  text-align: center;
+background-color: rgb(162, 217, 243);
+height: 100vh;
+margin: 15px 15px 15px 15px;
+text-align: justify;
 }
 
 .leyes{
-    background-color: white;
-    height: 100vh;
-  margin: 10px 10px 12px 15px;
-  align-content:  center;
+background-color: rgb(162, 217, 243);
+height: 100vh;
+margin: 10px 10px 10px 10px;
 }
+
+a:hover{
+  background-color: transparent;}
+
 
