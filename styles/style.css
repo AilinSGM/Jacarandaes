@@ -80,6 +80,18 @@ h1 {
         font-size: large;
     }
 
+    h1 {
+        font-size: 40px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+
+    .ancho {
+        width: 120px;
+        height: 120px;
+    }
+
     .mainindex {
         flex-direction: row-reverse;
     }
@@ -106,6 +118,18 @@ h1 {
     .barranav{
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 50px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+
+    .ancho {
+        width: 130px;
+        height: 130px;
     }
 
     .bullets {
