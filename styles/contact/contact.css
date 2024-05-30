@@ -1,21 +1,8 @@
-.header{
-    color: #36A0FF;
+.bigicon{
     font-size: 30px;
-    padding: 8px;
+    color: #36A0FF;
 }
 
-.bigicon{
-    font-size: 45px;
-    color: #36A0FF;
-}
-.botonsubmit {
-    size: 50px;
-}
-.lead {
-    margin-top: 30%;
-    padding: 20px;
-    color: red;
-}
 .botonsubmit {
     size: 30px;
 }
@@ -26,26 +13,9 @@
     margin-bottom: 2rem;
  }
 
- .contenedordos{
-    text-align: right
-    margin: 10px;
-    border-radius: 25%;
-    padding: 5px;
-    position: absolute;
-    }
-
-.i{
-    text-align: right
-    font-size: 25px;
-    margin: 10px;
-    border-radius: 25%;
-    padding: 5px;    
-}
-
-button.botonsubmit{
+ button.botonsubmit{
     margin-top: 1rem;
 }
- 
 .redes-container{
     display: flex;
     flex-direction: horizontal;
