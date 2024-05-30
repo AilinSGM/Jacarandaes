@@ -44,16 +44,20 @@ h1 {
     font-size: 25px;
     text-align: center;
     text-decoration: none;
-    margin: 0.5rem;
-    padding: 2rem 4rem 2rem 4rem;
+    margin: 2rem;
+    padding: 1.5rem;
     border-radius: 20px;
     background-color: rgb(9, 113, 161);
-    transition: background-color 1s;
+    transition: background-color 0.5s;
+}
+
+a.hijonav {
+    color: #ffffff;
 }
 
 .hijonav 
     
-    a:link{ text-decoration:none;  }
+    a:link{ text-decoration:none;}
     a:visited{ color:#ffffff; }
     a:hover{ color: rgb(147, 213, 252); transition: background-color 0.5s;}
     a:active{ background-color:rgb(10, 141, 141);

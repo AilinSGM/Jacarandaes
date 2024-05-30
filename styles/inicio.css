@@ -46,9 +46,13 @@ h2 {
     border-radius: 10px;
 }
 
+a.linknot {
+    color: #d86100;
+    padding-left: 10px;
+}
 
 .linksnoticias a:link{ text-decoration:none;  }
-.linksnoticias a:visited{ color:#d88200; }
+.linksnoticias a:visited{ color:#ff9e0d; }
 .linksnoticias a:hover{ color: rgb(147, 213, 252); transition: background-color 0.5s;}
 .linksnoticias a:active{ background-color:rgb(10, 141, 141);
     }
