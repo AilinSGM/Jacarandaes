@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
 .sillaenescalera {
+    border: 3px red solid;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;  
+}
+
+.vme {
+    margin: 20px;
 }
 
 #parrafoqs{
