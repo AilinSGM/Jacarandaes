@@ -1,38 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 
 
-
-    .maria {width: 250px;
-        height: auto;}
-    
-    .juan {width: 250px;
-            height: auto;}
-    .Ana {width: 250px;
-        height: auto;}
-    
-    .Pedro {width: 250px;
-            height: auto;}
-
-
-.grid-containerexperiencias{
-display: grid;
-justify-content: start;
-grid-template-columns: 3fr 3fr 3fr 3fr;
-text-align: start; 
-padding: 50px;
-border: #4791c2;
-height: 2000px;
+.maria, .juan, .Ana, .Pedro {
+    width: 100%;
+    height: auto;
 }
 
-.Gridhijo
-{justify-items: center ;
-align-items: end;
-height: 90px;}
+.containerExperiencias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: start; 
+    padding: 0.5rem;
+    border: #4791c2;
+}
 
-
-main {display: flex;
-flex-direction: column;
-height: 100vh;}
+.Gridhijo{
+    justify-items: center ;
+    align-items: end;
+    padding: 1rem;
+    width: 100%;
+    margin: 0.5rem;
+}
 
 .pie {
     background-color: rgb(9, 113, 161);
@@ -51,7 +40,18 @@ height: 100vh;}
 .experiencias {
     border:3px solid rgb(55, 55, 148);
     width: 100vw;
-    height: 800px;
-padding: 20px;
-margin-bottom: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px){
+    .Gridhijo{
+        width: 18rem;
+        /* border: 1px solid black;
+        border-radius: 0.5rem; */
+    }
+
+    .maria, .juan, .Ana, .Pedro {
+        width: 16rem;
+    }
 }
