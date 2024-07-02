@@ -95,6 +95,18 @@ a.linknot {
     left:0px;
 }
 
+.login{
+    margin: 1rem;
+}
+
+label{
+    display: block;
+}
+
+.input{
+    margin: 0.5 rem;
+}
+
 @media screen and (min-width: 768px){
     body{     
         font-size: x-large;
