@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 1px;
+    padding: 1px;
     box-sizing: border-box;
 }
 
@@ -12,31 +12,50 @@ body {background-color: white;
 
 
 .titulo{
-    display: flex;
+    display:flex;
     flex-direction: row;
     color: rgb(9, 113, 161); 
     background-color: rgb(234, 241, 241);
     border-radius: 40px;
-    margin: 10px;
-    margin-top: 10px;
-    align-items: center;
-}
+    margin: 5px;
+    margin-top: 5px;
 
+}
 h1 {
-    font-size: 30px;
+    flex-direction: column;
+    font-size: 20px;
     padding-left: 5px;
     padding-top: 5px;
     padding-right: 5px;
 }
 
+h2 {display: flex;
+    flex-direction: row;
+    color: rgb(9, 113, 161); 
+    background-color: rgb(234, 241, 241);
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 5px;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+}
+
 .ancho {
-    width: 110px;
-    height: 110px;
+    width: 50px;
+    height: 50px;
 }
 
 .barranav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color:rgb(9, 113, 161);
 }
 
