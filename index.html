@@ -10,27 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="./styles/inicio.css">
-    
 </head>
 <body>
    <header>
       <div class="titulo">
          <img src="image/logo.png" class="ancho" alt="logo"> 
          <h1>DIAGONALES SIN BARRERAS</h1>
-         <section>Inicio de sesión
-            <form action="form" class="formulario">
+         <div>Inicio de sesión
+            <form action="form" class="formulario" id="formLogin">
                <fieldset>
                   <label for="email">Correo electrónico</label>
-                  <input type="email" name="email" id="email" class="input">
+                  <input type="email" name="email" id="emailLogin" class="input">
                </fieldset>
                <fieldset>
                   <label for="contrasena">Contraseña</label>
-                  <input type="password" name="contrasena" id="contrasena" class="input">
+                  <input type="password" name="contrasena" id="contrasenaLogin" class="input">
                </fieldset>
                <button type="submit">Enviar</button>
                <button type="reset">Cancelar</button>
+               <div>
+                  <ul id="errores"></ul>
+               </div>
             </form>
-         </section>
+         </div>
       </div>
       <nav class="barranav">
          <a href="index.html" class="hijonav"> Inicio</a>
@@ -38,6 +40,7 @@
          <a href="./views/marcolegal.html" class="hijonav"> Marco legal</a>
          <a href="./views/experiencias.html" class="hijonav"> Experiencias</a>
          <a href="./views/contact.html" class="hijonav"> Contacto</a>
+         <a href="./views/registro.html" class="hijonav"> Registro</a>
       </nav>
    </header>
    <main class="mainindex">

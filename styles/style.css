@@ -13,13 +13,12 @@ body {background-color: white;
 
 .titulo{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     color: rgb(9, 113, 161); 
     background-color: rgb(234, 241, 241);
     border-radius: 40px;
     margin: 5px;
     margin-top: 5px;
-
 }
 h1 {
     flex-direction: column;
@@ -60,11 +59,10 @@ h2 {display: flex;
 }
 
 .hijonav{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 2rem;
-    padding: 1.5rem;
+    margin: 1rem;
     border-radius: 20px;
     background-color: rgb(9, 113, 161);
     transition: background-color 0.5s;
@@ -109,7 +107,16 @@ a.hijonav {
         padding-top: 5px;
         padding-right: 5px;
     }
-
+    .titulo{
+        display:flex;
+        flex-direction: row;
+        color: rgb(9, 113, 161); 
+        background-color: rgb(234, 241, 241);
+        border-radius: 40px;
+        margin: 5px;
+        margin-top: 5px;
+    
+    }
     .ancho {
         width: 120px;
         height: 120px;
@@ -155,6 +162,15 @@ a.hijonav {
         padding-left: 5px;
         padding-top: 5px;
         padding-right: 5px;
+    }
+    .titulo{
+        display:flex;
+        flex-direction: row;
+        color: rgb(9, 113, 161); 
+        background-color: rgb(234, 241, 241);
+        border-radius: 40px;
+        margin: 5px;
+        margin-top: 5px;
     }
 
     .ancho {
