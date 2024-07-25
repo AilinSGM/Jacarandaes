@@ -54,7 +54,7 @@ h2 {display: flex;
 
 .barranav{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color:rgb(9, 113, 161);
 }
 
