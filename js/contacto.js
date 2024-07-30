@@ -66,3 +66,13 @@ inputNombre.addEventListener('focus', () => {
     inputNombre.style.backgroundColor = 'blue'
 })
 
+
+let dbUsuariosContacto = JSON.parse(localStorage.getItem('usuariosContacto'));
+let db;
+
+if(dbUsuariosContacto === null ){
+    db = [];
+} else {
+    db = dbUsuariosContacto;
+}
+// console.log(db);
