@@ -1,4 +1,4 @@
-/*window.addEventListener('load', function(){
+window.addEventListener('load', function(){
     let nombre = document.queryselector('name');
     nombre.addEventListener('focus', function(){
         console.log('Entraste al input')
@@ -64,7 +64,7 @@ for (let i = 0; i < errores.length; i++){
 
 inputNombre.addEventListener('focus', () => {
     inputNombre.style.backgroundColor = 'blue'
-})*/
+})
 
 
 let dbUsuariosContacto = JSON.parse(localStorage.getItem('usuariosContacto'));

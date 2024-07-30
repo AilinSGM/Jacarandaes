@@ -9,7 +9,7 @@ window.addEventListener('load', function(e){
     let listaDeErrores = document.querySelector('#erroresComunicacion')
     let respuesta = document.querySelector('#respuestaDeRegistro');
     
-    console.log(formulario, inputEmail, inputContraseña, inputName, listaDeErrores, respuesta)
+    // console.log(formulario, inputEmail, inputContraseña, inputName, listaDeErrores, respuesta)
     
     formulario.addEventListener('submit', function(event){
         
