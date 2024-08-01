@@ -86,23 +86,23 @@ window.addEventListener('load', function(e){
     })
 })
 
-/*formula para API hay algunas cosas que no reaccionan bien no sé porqué
+//formula para API
 
-{const fetchData = async (product,quantyty) =>}
+const fetchData = async (product, quantity) =>{
+  try { 
+    const respuesta = await fetch//(`link MLA ${product}`)
+    const data= await respuesta.json()
+    const avaliableProducts = data.results;
+    let products; 
 
-try { 
 
-    const respuesta = await respuesta.json()
-    const avaliable Products = data.results;
-    let products
-
-    if (avaliableProducts.length >0){
+     if (avaliableProducts.length >0){
         products = avaliableProducts.map((element) => {
 
             return{ 
             id: element.id,
             title: element.title,
-            price: element.price
+            price: element.price,
             currency_id: element.currency_id,
             avaliable_quantity: element.avaliable_quantity,
             thumbnail: element.thumbnail,
@@ -111,38 +111,36 @@ try {
             };
             
         });
+     }
+     console.log(products)
+     imprimirInfo(products, quantity)
+    } catch (error){}
+}
 
-    }
-
-    console.log(products); 
-
-    const inprimirInfo. = (info, quanty) =>{
-          
+const inprimirInfo = (info, quantity) =>{
+        
         const aside= document.getElementById('publicity');
 
         for(let i=0; i<quantity; i++){
 
-            const cardProduct= documentcreateElement('article');
+            const cardProduct= document.createElement('article');
             cardProduct.innerHTML= `
 
-                <img src="${info[i].thumbnail}"/> alt="${info[i].title}" /
-                <h2>${info[i].title</h2>
+                <img src="${info[i].thumbnail}" alt="${info[i].title}" />
+                <h2>${info[i].title}</h2>
                 <p>$${info[i].price}</p>
-                <a href="${info[i].permalink}" target="blank">comprar</a>
+                <a href="${info[i].permalink}" target="_blank">comprar</a>
             `;
-            cardProduct.Classname = 'product';
+            cardProduct.className = 'product';
             aside.appenChild(cardProduct);
         }
     }     
 
-    window.addEventListener('load',funtion(event){
-                 fetchdata('libros discapacidad motora',6);
-    
-                
-    });     
+    window.addEventListener('load', function(event){
+        fetchData('libros discapacidad motora', 5);
+    });    
         
-
-ACA TERMINA LO DE API
+//ACA TERMINA LO DE API
 
 
 
