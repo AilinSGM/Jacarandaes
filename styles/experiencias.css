@@ -55,3 +55,42 @@
         width: 16rem;
     }
 }
+
+@media screen and (min-width: 768px){
+    .barranav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    body{     
+        font-size: x-large;
+    }
+
+    
+
+    .bullets {
+        margin-left: 80px;
+    }
+}
+
+    
+@media screen and (min-width: 1100px){
+   
+    .barranav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .mainindex {
+            flex-direction: row-reverse;
+        }
+
+        .hijomain {
+            flex: 50%;
+        }
+
+        .hijonav{
+            flex-direction: column;
+        }
+    .bullets {
+        margin-left: 80px;
+    }
+}
