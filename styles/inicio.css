@@ -114,7 +114,7 @@ label{
         justify-content: space-around;
     }
     body{     
-        font-size: x-large;
+        font-size: row;
     }
 
     
@@ -140,7 +140,7 @@ label{
         }
 
         .hijonav{
-            flex-direction: column;
+            flex-direction: row;
         }
     .bullets {
         margin-left: 80px;

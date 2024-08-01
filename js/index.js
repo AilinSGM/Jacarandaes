@@ -90,21 +90,21 @@ window.addEventListener('load', function(e){
 
 const fetchData = async (product, quantity) =>{
   try { 
-    const respuesta = await fetch//(`link MLA ${product}`)
+    const respuesta = await fetch(`https://api.mercadolibre.com/sites/MLA/domain_discovery/search?=q${product}`)
     const data= await respuesta.json()
-    const avaliableProducts = data.results;
+    const availableProducts = data.results;
     let products; 
 
 
-     if (avaliableProducts.length >0){
-        products = avaliableProducts.map((element) => {
+     if (availableProducts.length >0){
+        products = availableProducts.map((element) => {
 
             return{ 
             id: element.id,
             title: element.title,
             price: element.price,
             currency_id: element.currency_id,
-            avaliable_quantity: element.avaliable_quantity,
+            available_quantity: element.available_quantity,
             thumbnail: element.thumbnail,
             condition: element.condition,
             permalink: element.permalink 
@@ -112,12 +112,12 @@ const fetchData = async (product, quantity) =>{
             
         });
      }
-     console.log(products)
+     //console.log(products)
      imprimirInfo(products, quantity)
     } catch (error){}
 }
 
-const inprimirInfo = (info, quantity) =>{
+const imprimirInfo = (info, quantity) =>{
         
         const aside= document.getElementById('publicity');
 
