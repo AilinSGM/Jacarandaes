@@ -29,31 +29,26 @@
     </nav>
    </header>
    <main>
-    <h2>Regístrese en nuestro sitio para estar mejor comunicados</h2>
-    
-    <p class="pHorario">Solo le pediremos algunos datos</p>
-    
+    <h2>Regístrese en nuestro sitio para estar mejor comunicados.Solo le pediremos algunos datos</h2>
     
     <form action="" id="comunicacion">
-        <label for="name">Nombre</label> 
+        <label for="name">Nombre de usuario</label> 
         <input type="text" name="name" id="name">
-    
-        <label for="email">Correo electrónico</label> 
-        <input type="text" name="email" id="email">
+        <br>
+        <p id="nameError"></p>
     
         <label for="password">Cree una contraseña</label> 
         <input type="password" name="password" id="password">
-            
+            <br>
         <button type="submit">Enviar</button>
         <button type="reset">Cancelar</button>
         <div>
-            <ul id="erroresComunicacion"></ul>
+            <ul id="listaDeErrores"></ul>
          </div>
     </form>
     <p id="respuestaDeRegistro"></p>
     </main>
-    
-    </body>
+</body>
     
     
     <footer class="pie">

@@ -90,15 +90,15 @@ window.addEventListener('load', function(e){
 
 const fetchData = async (product, quantity) =>{
   try { 
-    const respuesta = await fetch(`https://api.mercadolibre.com/sites/MLA/domain_discovery/search?=q${product}`)
-    const data= await respuesta.json()
+    const respuesta = await fetch(`https://api.mercadolibre.com/sites/MLA/search?q=${product}`);
+    const data = await respuesta.json()
+    //console.log(data)
     const availableProducts = data.results;
     let products; 
+    console.log(availableProducts);
 
-
-     if (availableProducts.length >0){
+     if (availableProducts.length > 0) {
         products = availableProducts.map((element) => {
-
             return{ 
             id: element.id,
             title: element.title,
@@ -109,27 +109,26 @@ const fetchData = async (product, quantity) =>{
             condition: element.condition,
             permalink: element.permalink 
             };
-            
         });
      }
      //console.log(products)
      imprimirInfo(products, quantity)
-    } catch (error){}
+    } catch (error){
+        console.log(error)
+    }
 }
 
 const imprimirInfo = (info, quantity) =>{
-        
-        const aside= document.getElementById('publicity');
+    //console.log(info[0])
+        const aside = document.getElementById('publicity');
 
         for(let i=0; i<quantity; i++){
-
-            const cardProduct= document.createElement('article');
-            cardProduct.innerHTML= `
-
+            const cardProduct = document.createElement('article');
+            cardProduct.innerHTML = `
                 <img src="${info[i].thumbnail}" alt="${info[i].title}" />
                 <h2>${info[i].title}</h2>
                 <p>$${info[i].price}</p>
-                <a href="${info[i].permalink}" target="_blank">comprar</a>
+                <a href="${info[i].permalink}"target="_blank"> comprar</a>
             `;
             cardProduct.className = 'product';
             aside.appenChild(cardProduct);
