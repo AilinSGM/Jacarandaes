@@ -95,7 +95,7 @@ const fetchData = async (product, quantity) =>{
     //console.log(data)
     const availableProducts = data.results;
     let products; 
-    console.log(availableProducts);
+    //console.log(availableProducts);
 
      if (availableProducts.length > 0) {
         products = availableProducts.map((element) => {
@@ -111,7 +111,7 @@ const fetchData = async (product, quantity) =>{
             };
         });
      }
-     //console.log(products)
+     console.log(products)
      imprimirInfo(products, quantity)
     } catch (error){
         console.log(error)
@@ -128,10 +128,10 @@ const imprimirInfo = (info, quantity) =>{
                 <img src="${info[i].thumbnail}" alt="${info[i].title}" />
                 <h2>${info[i].title}</h2>
                 <p>$${info[i].price}</p>
-                <a href="${info[i].permalink}"target="_blank"> comprar</a>
+                <a href="${info[i].permalink}" target="_blank">Comprar</a>
             `;
             cardProduct.className = 'product';
-            aside.appenChild(cardProduct);
+            aside.appendChild(cardProduct);
         }
     }     
 
