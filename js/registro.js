@@ -8,10 +8,8 @@ window.addEventListener('load', function(e){
     let inputEmail = document.querySelector('#email');
     let inputContraseña = document.querySelector('#password');
     let inputName = document.querySelector('#name')
-    let listaDeErrores = document.querySelector('#erroresComunicacion')
-    let inputContraseña = document.querySelector('#password');
+    let listaDeErrores = document.querySelector('#erroresComunicacion');
 
-    let listaDeErrores = document.querySelector('#nameError')
     let respuesta = document.querySelector('#respuestaDeRegistro');
 
     console.log(formulario, inputEmail, inputContraseña, inputName, listaDeErrores, respuesta)
@@ -20,8 +18,6 @@ window.addEventListener('load', function(e){
 
         event.preventDefault();
         let errores = [];
-        let usuarioEncontrado = false;
-        let usuario;
         let usuarioEncontrado = false;
         let usuario;
 
