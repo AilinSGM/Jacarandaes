@@ -1,4 +1,6 @@
 window.addEventListener('load', function(e){
+
+
     let db = JSON.parse(localStorage.getItem('usuarios'));
     // console.log(db);
 
@@ -72,3 +74,4 @@ window.addEventListener('load', function(e){
         inputName.value = ''
     }
         })
+    })
