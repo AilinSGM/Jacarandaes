@@ -121,24 +121,29 @@ const fetchData = async (product, quantity) =>{
 const imprimirInfo = (info, quantity) =>{
     //console.log(info[0])
         const aside = document.getElementById('publicity');
-
+        
+        let products = [];
         for(let i=0; i<quantity; i++){
-            const cardProduct = document.createElement('article');
-            cardProduct.innerHTML = `
-                <img src="${info[i].thumbnail}" alt="${info[i].title}" />
-                <h2>${info[i].title}</h2>
-                <p>$${info[i].price}</p>
-                <a href="${info[i].permalink}" target="_blank">Comprar</a>
-            `;
-            cardProduct.className = 'product';
-            aside.appendChild(cardProduct);
+            if(products.includes(info[i].title) === false){
+                 const cardProduct = document.createElement('article');
+                 cardProduct.innerHTML = `
+                    <img src="${info[i].thumbnail}" alt="${info[i].title}"/>
+                    <h2>${info[i].title}</h2>
+                    <p>$${info[i].price}</p>
+                    <a href="${info[i].permalink}" target="_blank">Comprar</a>
+                 `;
+                 cardProduct.className = 'product';
+                 aside.appendChild(cardProduct);
+                 products.push(info[i].title);
+            }    
         }
+        
     }     
 
     window.addEventListener('load', function(event){
-        fetchData('libros discapacidad motora', 5);
+        fetchData('libros discapacidad motora', 8);
     });    
-        
+           
 //ACA TERMINA LO DE API
 
 
