@@ -136,7 +136,7 @@ const imprimirInfo = (info, quantity) =>{
                  aside.appendChild(cardProduct);
                  products.push(info[i].title);
             }    
-        }
+        }                
         
     }     
 
