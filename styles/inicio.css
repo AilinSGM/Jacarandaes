@@ -1,102 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 
-*{
-    margin: 1px;
-    padding: 1px;
-    box-sizing: border-box;
-}
-
-body {background-color: white;
-    font-family: montserrat;
-}
-
-
-.titulo{
-    display:flex;
-    flex-direction: column;
-    color: rgb(9, 113, 161); 
-    background-color: rgb(234, 241, 241);
-    border-radius: 40px;
-    margin: 5px;
-    margin-top: 5px;
-}
-h1 {
-    flex-direction: column;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-}
-
-h2 {display: flex;
-    flex-direction: row;
-    color: rgb(9, 113, 161); 
-    background-color: rgb(234, 241, 241);
-    border-radius: 5px;
-    margin: 5px;
-    margin-top: 5px;
-
-}
-
-.formulario {
-    display: flex;
-    flex-direction: row;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-    font-size: 15px;
-}
-
-.ancho {
-    width: 50px;
-    height: 50px;
-}
-
-.barranav{
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(9, 113, 161);
-}
-
-.hijonav{
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    margin: 1rem;
-    border-radius: 20px;
-    background-color: rgb(9, 113, 161);
-    transition: background-color 0.5s;
-}
-
-a.hijonav {
-    color: #ffffff;
-}
-
-.hijonav 
-    
-    a:link{ text-decoration:none;}
-    a:visited{ color:#ffffff; }
-    a:hover{ color: rgb(147, 213, 252); transition: background-color 0.5s;}
-    a:active{ background-color:rgb(10, 141, 141);
-    
-}
-
-.pie {
-        background-color: rgb(9, 113, 161);
-        padding: 5px;
-        display: flex;
-        justify-content: space-evenly
-}
-    
-.footer {
-    color: white;
-    font-size: medium;
-    text-align: center;
-    margin: 10px
-}
-
-
-
 .mainindex {
     border: 1px solid rgb(197, 189, 233);
     padding: 4px;
@@ -244,53 +147,7 @@ label{
 }
 
 @media screen and (min-width: 768px){
-    body{
-        font-size: large;
-    }
 
-    h1 {
-        font-size: 40px;
-        padding-left: 5px;
-        padding-top: 5px;
-        padding-right: 5px;
-    }
-    .titulo{
-        display:flex;
-        flex-direction: row;
-        color: rgb(9, 113, 161); 
-        background-color: rgb(234, 241, 241);
-        border-radius: 40px;
-        margin: 5px;
-        margin-top: 5px;
-    
-    }
-    .ancho {
-        width: 120px;
-        height: 120px;
-    }
-
-    .mainindex {
-        flex-direction: row-reverse;
-    }
-
-    .hijomain {
-        flex: 50%;
-    }
-
-    .hijonav{
-        flex-direction: column;
-    }
-
-    .bullets {
-        margin-left: 80px;
-    }
-
-    .footer {
-        color: white;
-        font-size: large;
-        text-align: center;
-        margin: 10px
-    }
     .barranav{
         flex-direction: row;
         justify-content: space-around;
@@ -298,9 +155,6 @@ label{
     body{     
         font-size: row;
     }
-
-    
-
     .bullets {
         margin-left: 80px;
     }
@@ -308,47 +162,6 @@ label{
 
     
 @media screen and (min-width: 1100px){
-    body{
-        background-color: rgb(255, 255, 255) ;
-        font-size: x-large;
-    }
-    .barranav{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    h1 {
-        font-size: 50px;
-        padding-left: 5px;
-        padding-top: 5px;
-        padding-right: 5px;
-    }
-    .titulo{
-        display:flex;
-        flex-direction: row;
-        color: rgb(9, 113, 161); 
-        background-color: rgb(234, 241, 241);
-        border-radius: 40px;
-        margin: 5px;
-        margin-top: 5px;
-    }
-
-    .ancho {
-        width: 130px;
-        height: 130px;
-    }
-
-    .bullets {
-        margin-left: 80px;
-    }
-
-    .footer {
-        color: white;
-        font-size: x-large;
-        text-align: center;
-        margin: 10px
-    }
-   
     .barranav{
         flex-direction: row;
         justify-content: space-around;
@@ -356,12 +169,10 @@ label{
     .mainindex {
             flex-direction: row-reverse;
         }
-
-        .hijomain {
+    .hijomain {
             flex: 50%;
         }
-
-        .hijonav{
+    .hijonav{
             flex-direction: row;
         }
     .bullets {
