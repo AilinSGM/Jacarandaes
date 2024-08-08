@@ -1,5 +1,5 @@
 window.addEventListener('load', function(){
-    let nombre = document.queryselector('name');
+    let nombre = document.querySelector('name');
     nombre.addEventListener('focus', function(){
         console.log('Entraste al input')
     })
