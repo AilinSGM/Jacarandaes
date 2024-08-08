@@ -71,12 +71,12 @@ h2 {
     margin: 5vh;
 }
 
-label {
+.labelContact {
     justify-content: center;
     padding: 2vh 2vh 0vh 1vh;
 }
 
-input {
+.inputContact {
     margin: 1vh;
     border: 2px solid rgb(41, 40, 40);
     border-radius: 2px;

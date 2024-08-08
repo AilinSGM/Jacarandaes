@@ -10,13 +10,18 @@ body {background-color: white;
     font-family: montserrat;
 }
 
+#tituloLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .titulo{
     display:flex;
     flex-direction: column;
     color: rgb(9, 113, 161); 
     background-color: rgb(234, 241, 241);
-    border-radius: 40px;
+    border-radius: 20px;
     margin: 5px;
     margin-top: 5px;
 }
@@ -38,19 +43,54 @@ h2 {display: flex;
 
 }
 
+#inicioSesion{
+    border: solid 1px;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding-top: 4px;
+
+}
+
+#inicioSesionP{
+    font-size:17px;
+    margin-left: 10px;
+}
 .formulario {
     display: flex;
     flex-direction: row;
     padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-    font-size: 15px;
+    padding-top: 1px;
+    padding-right: 50px;
+    font-size: 13px;
+}
+#botones {
+    width: 53%;
+    margin-top: 2px;
+    margin-left: 20%;
+}
+#bEnviar{
+    width:80px;
+    height:19px;
+}
+
+#bCancelar{
+    width:80px;
+    height:19px;
+}
+
+
+
+fieldset{
+    border: none;
+
 }
 
 .ancho {
     width: 50px;
     height: 50px;
 }
+
+
 
 .barranav{
     display: flex;
@@ -62,7 +102,7 @@ h2 {display: flex;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 1rem;
+    margin: 10px;
     border-radius: 20px;
     background-color: rgb(9, 113, 161);
     transition: background-color 0.5s;
@@ -113,10 +153,32 @@ a.hijonav {
         color: rgb(9, 113, 161); 
         background-color: rgb(234, 241, 241);
         border-radius: 40px;
+        justify-content: space-between;
+        align-items: center;
         margin: 5px;
         margin-top: 5px;
-    
     }
+
+    #formLogin {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2px;
+        padding-top: 1px;
+        padding-right: 5px;
+        font-size: 13px;
+        margin-right: 3vw;
+    }
+
+    #botones {
+        margin-bottom: 1px ;
+    }
+
+    #inicioSesion{
+        margin-top: 1px;
+        padding-top: 2px;
+        margin-right: 1vw;
+    }
+
     .ancho {
         width: 120px;
         height: 120px;
@@ -158,7 +220,7 @@ a.hijonav {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 40px;
         padding-left: 5px;
         padding-top: 5px;
         padding-right: 5px;
