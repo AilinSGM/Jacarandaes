@@ -94,42 +94,50 @@ a.linknot {
     top:0px;
     left:0px;
 }
-
+aside{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90vw;
+    align-items: center;
+    margin: 0 auto;
+    background-color:white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    position: relative;
+}
 .textPublicity{
     position: absolute;
     top: 0.5rem;
     left: 1rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
-#publicity {
-border: black solid 3px;
-justify-content: center;
-}
 
 .product{
     border: 1px solid gray;
+    width: 18%;
     height: 15rem;
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 0.5rem;
     margin: 0.5rem;
 }
 
 .product h2, .product p, .product a{
-    font-size: 15px;
+    font-size: 11px;
 }
 
 .product p{
-    font-weight: 70px;
+    font-weight: 600;
 }
 
 .product a{
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
     color: rgb(82, 82, 238);
 }
