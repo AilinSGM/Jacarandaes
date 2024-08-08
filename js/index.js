@@ -32,12 +32,12 @@ window.addEventListener('load', function(e){
     }
     
     let db = JSON.parse(localStorage.getItem('usuarios'));
-    // console.log(db);
+    console.log(db);
 
     let formulario = document.getElementById('formLogin');
     let inputEmail = document.querySelector('#emailLogin');
     let inputContraseña = document.querySelector('#contrasenaLogin');
-    let listaDeErrores = document.querySelector('#errores')
+    let listaDeErrores = document.querySelector('#errores');
     let respuesta = document.querySelector('#saludoDeBienvenida');
 
     console.log(formulario, inputEmail, inputContraseña, listaDeErrores, respuesta)
@@ -62,7 +62,8 @@ window.addEventListener('load', function(e){
                 if(db[i].password == inputContraseña.value){
                     nombreDelUsuario = db[i].nombre;
                     usuarioEncontrado = true;
-                } else {
+                }
+                else {
                     errores.push('La contraseña no coincide con la registrada!!!')
                 }
             }
@@ -72,7 +73,8 @@ window.addEventListener('load', function(e){
             for(let i = 0; i < errores.length; i++){
                 listaDeErrores.innerHTML += `<li>${errores[i]}</li>`
             }
-        } else {
+        } 
+            else {
             if(usuarioEncontrado === true){
                 sessionStorage.setItem('usuario', nombreDelUsuario);
                 respuesta.innerHTML = `Bienvenido ${sessionStorage.getItem('usuario')} a nuestra página`;
